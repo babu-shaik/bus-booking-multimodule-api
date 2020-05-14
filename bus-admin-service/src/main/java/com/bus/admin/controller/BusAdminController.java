@@ -31,7 +31,7 @@ public class BusAdminController {
 	
 	@RequestMapping("/findRoute/{name}")
 	public String findByRoute(@RequestParam("name") String name) {
-		
+		System.out.println("infindbyroute");
 		return null;
 	}
 	
