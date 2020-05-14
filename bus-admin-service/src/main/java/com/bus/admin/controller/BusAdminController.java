@@ -15,7 +15,7 @@ public class BusAdminController {
 	
 	@RequestMapping("/saveRoute")
 	public ResponseEntity<BusRoutes> saveOrUpdateRoutes(@RequestBody BusRoutes routes){
-		
+		System.out.println("insave");
 		
 		return null;
 		
