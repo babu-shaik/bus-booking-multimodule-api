@@ -27,7 +27,7 @@ public class BusAdminController {
 
 	@RequestMapping("/allRoutes")
 	public List<BusRoutes> findAllRoutes(){
-		
+		System.out.println("frm hp121");
 		return null;
 	}
 
