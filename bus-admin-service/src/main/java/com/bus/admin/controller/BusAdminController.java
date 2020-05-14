@@ -5,7 +5,10 @@ import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.RequestParam;
+=======
+>>>>>>> 7a3f1218c34d3eca49fc4ebe65aeca6ab14e2403
 import org.springframework.web.bind.annotation.RestController;
 
 import com.bus.admin.model.BusRoutes;
@@ -16,7 +19,11 @@ public class BusAdminController {
 	
 	@RequestMapping("/saveRoute")
 	public ResponseEntity<BusRoutes> saveOrUpdateRoutes(@RequestBody BusRoutes routes){
+<<<<<<< HEAD
 		
+=======
+		System.out.println("insave");
+>>>>>>> 7a3f1218c34d3eca49fc4ebe65aeca6ab14e2403
 		
 		return null;
 		
@@ -28,6 +35,7 @@ public class BusAdminController {
 		
 		return null;
 	}
+<<<<<<< HEAD
 	
 	@RequestMapping("/findRoute/{name}")
 	public String findByRoute(@RequestParam("name") String name) {
@@ -35,4 +43,6 @@ public class BusAdminController {
 		return null;
 	}
 	
+=======
+>>>>>>> 7a3f1218c34d3eca49fc4ebe65aeca6ab14e2403
 }
